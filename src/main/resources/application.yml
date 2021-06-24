@@ -1,0 +1,14 @@
+server:
+   port: 9091
+
+logging:
+  level:
+    root: "info"
+    com.netsurfingzone.config: "debug"
+
+kafka:
+   bootstrap-server: "localhost:29092"
+   topic: "netsurfingzone-topic-1"
+   groupId: "group-id-string-1"
+   listenerContainerFactory: "kafkaListenerContainerFactory"
+   groupIdJson: "group-id-json-1"
