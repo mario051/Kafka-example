@@ -4,7 +4,7 @@ server:
 logging:
   level:
     root: "info"
-    com.netsurfingzone.config: "debug"
+    com.sample.springboot.kafka: "debug"
 
 kafka:
    bootstrap-server: "localhost:29092"
