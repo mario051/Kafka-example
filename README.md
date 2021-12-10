@@ -1,4 +1,4 @@
-# samples
+# Kafka Sample
 Kafka sample: it allows to send a message on a kafka topic through a REST request
 
 1. First start docker-start.cmd
